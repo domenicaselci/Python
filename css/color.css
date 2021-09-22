@@ -1,143 +1,143 @@
 
 /*------------------------------------
-- COLOR azulcielo
+- COLOR vino
 ------------------------------------*/
-.alert-azulcielo {
-    color: #0f04e1;
-    background-color: #12912cff;
-    border-color: #116118ff;
+.alert-vino {
+    color: #170707;
+    background-color: #dc8989;
+    border-color: #d77979;
 }
 
-.alert-azulcielo hr {
-    border-top-color: #ffffff;
+.alert-vino hr {
+    border-top-color: #d16565;
 }
 
-.alert-azulcielo .alert-link {
-    color: #0c03af;
+.alert-vino .alert-link {
+    color: #000000;
 }
 
-.badge-azulcielo {
+.badge-vino {
     color: #fff;
-    background-color: #6c64fc;
+    background-color: #762323;
 }
 
-.badge-azulcielo[href]:hover, .badge-azulcielo[href]:focus {
+.badge-vino[href]:hover, .badge-vino[href]:focus {
     color: #fff;
-    background-color: #3c31fb;
+    background-color: #4e1717;
 }
 
-.bg-azulcielo {
-    background-color: #6c64fc !important;
+.bg-vino {
+    background-color: #762323 !important;
 }
 
-a.bg-azulcielo:hover, a.bg-azulcielo:focus,
-button.bg-azulcielo:hover,
-button.bg-azulcielo:focus {
-    background-color: #3c31fb !important;
+a.bg-vino:hover, a.bg-vino:focus,
+button.bg-vino:hover,
+button.bg-vino:focus {
+    background-color: #4e1717 !important;
 }
 
-.border-azulcielo {
-    border-color: #6c64fc !important;
+.border-vino {
+    border-color: #762323 !important;
 }
 
-.btn-azulcielo {
+.btn-vino {
     color: #fff;
-    background-color: #6c64fc;
-    border-color: #6c64fc;
+    background-color: #762323;
+    border-color: #762323;
 }
 
-.btn-azulcielo:hover {
+.btn-vino:hover {
     color: #fff;
-    background-color: #4a40fb;
-    border-color: #3c31fb;
+    background-color: #5a1a1a;
+    border-color: #4e1717;
 }
 
-.btn-azulcielo:focus, .btn-azulcielo.focus {
-    box-shadow: 0 0 0 0.2rem rgba(108, 100, 252, 0.5);
+.btn-vino:focus, .btn-vino.focus {
+    box-shadow: 0 0 0 0.2rem rgba(118, 35, 35, 0.5);
 }
 
-.btn-azulcielo.disabled, .btn-azulcielo:disabled {
+.btn-vino.disabled, .btn-vino:disabled {
     color: #fff;
-    background-color: #6c64fc;
-    border-color: #6c64fc;
+    background-color: #762323;
+    border-color: #762323;
 }
 
-.btn-azulcielo:not(:disabled):not(.disabled):active, .btn-azulcielo:not(:disabled):not(.disabled).active, .show > .btn-azulcielo.dropdown-toggle {
+.btn-vino:not(:disabled):not(.disabled):active, .btn-vino:not(:disabled):not(.disabled).active, .show > .btn-vino.dropdown-toggle {
     color: #fff;
-    background-color: #3c31fb;
-    border-color: #2e22fa;
+    background-color: #4e1717;
+    border-color: #421313;
 }
 
-.btn-azulcielo:not(:disabled):not(.disabled):active:focus, .btn-azulcielo:not(:disabled):not(.disabled).active:focus, .show > .btn-azulcielo.dropdown-toggle:focus {
-    box-shadow: 0 0 0 0.2rem rgba(108, 100, 252, 0.5);
+.btn-vino:not(:disabled):not(.disabled):active:focus, .btn-vino:not(:disabled):not(.disabled).active:focus, .show > .btn-vino.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem rgba(118, 35, 35, 0.5);
 }
 
-.btn-outline-azulcielo {
-    color: #6c64fc;
+.btn-outline-vino {
+    color: #762323;
     background-color: transparent;
-    border-color: #6c64fc;
+    border-color: #762323;
 }
 
-.btn-outline-azulcielo:hover {
+.btn-outline-vino:hover {
     color: #fff;
-    background-color: #6c64fc;
-    border-color: #6c64fc;
+    background-color: #762323;
+    border-color: #762323;
 }
 
-.btn-outline-azulcielo:focus, .btn-outline-azulcielo.focus {
-    box-shadow: 0 0 0 0.2rem rgba(108, 100, 252, 0.5);
+.btn-outline-vino:focus, .btn-outline-vino.focus {
+    box-shadow: 0 0 0 0.2rem rgba(118, 35, 35, 0.5);
 }
 
-.btn-outline-azulcielo.disabled, .btn-outline-azulcielo:disabled {
-    color: #6c64fc;
+.btn-outline-vino.disabled, .btn-outline-vino:disabled {
+    color: #762323;
     background-color: transparent;
 }
 
-.btn-outline-azulcielo:not(:disabled):not(.disabled):active, .btn-outline-azulcielo:not(:disabled):not(.disabled).active, .show > .btn-outline-azulcielo.dropdown-toggle {
+.btn-outline-vino:not(:disabled):not(.disabled):active, .btn-outline-vino:not(:disabled):not(.disabled).active, .show > .btn-outline-vino.dropdown-toggle {
     color: #fff;
-    background-color: #6c64fc;
-    border-color: #6c64fc;
+    background-color: #762323;
+    border-color: #762323;
 }
 
-.btn-outline-azulcielo:not(:disabled):not(.disabled):active:focus, .btn-outline-azulcielo:not(:disabled):not(.disabled).active:focus, .show > .btn-outline-azulcielo.dropdown-toggle:focus {
-    box-shadow: 0 0 0 0.2rem rgba(108, 100, 252, 0.5);
+.btn-outline-vino:not(:disabled):not(.disabled):active:focus, .btn-outline-vino:not(:disabled):not(.disabled).active:focus, .show > .btn-outline-vino.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem rgba(118, 35, 35, 0.5);
 }
 
-.list-group-item-azulcielo {
-    color: #0f04e1;
-    background-color: #116118ff;
+.list-group-item-vino {
+    color: #170707;
+    background-color: #d77979;
 }
 
-.list-group-item-azulcielo.list-group-item-action:hover, .list-group-item-azulcielo.list-group-item-action:focus {
-    color: #0f04e1;
-    background-color: #ffffff;
+.list-group-item-vino.list-group-item-action:hover, .list-group-item-vino.list-group-item-action:focus {
+    color: #170707;
+    background-color: #d16565;
 }
 
-.list-group-item-azulcielo.list-group-item-action.active {
+.list-group-item-vino.list-group-item-action.active {
     color: #fff;
-    background-color: #0f04e1;
-    border-color: #0f04e1;
+    background-color: #170707;
+    border-color: #170707;
 }
 
-.table-azulcielo,
-.table-azulcielo > th,
-.table-azulcielo > td {
-    background-color: #116118ff;
+.table-vino,
+.table-vino > th,
+.table-vino > td {
+    background-color: #d77979;
 }
 
-.table-hover .table-azulcielo:hover {
-    background-color: #ffffff;
+.table-hover .table-vino:hover {
+    background-color: #d16565;
 }
 
-.table-hover .table-azulcielo:hover > td,
-.table-hover .table-azulcielo:hover > th {
-    background-color: #ffffff;
+.table-hover .table-vino:hover > td,
+.table-hover .table-vino:hover > th {
+    background-color: #d16565;
 }
 
-.text-azulcielo {
-    color: #6c64fc !important;
+.text-vino {
+    color: #762323 !important;
 }
 
-a.text-azulcielo:hover, a.text-azulcielo:focus {
-    color: #3c31fb !important;
+a.text-vino:hover, a.text-vino:focus {
+    color: #4e1717 !important;
 }
