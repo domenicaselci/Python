@@ -1,143 +1,143 @@
 
 /*------------------------------------
-- COLOR vino
+- COLOR celeste
 ------------------------------------*/
-.alert-vino {
-    color: #170707;
-    background-color: #dc8989;
-    border-color: #d77979;
+.alert-celeste {
+    color: #005b84;
+    background-color: #ccefff;
+    border-color: #b7e8ff;
 }
 
-.alert-vino hr {
-    border-top-color: #d16565;
+.alert-celeste hr {
+    border-top-color: #9ee0ff;
 }
 
-.alert-vino .alert-link {
-    color: #000000;
+.alert-celeste .alert-link {
+    color: #003851;
 }
 
-.badge-vino {
-    color: #fff;
-    background-color: #762323;
+.badge-celeste {
+    color: #212529;
+    background-color: #00B0FF;
 }
 
-.badge-vino[href]:hover, .badge-vino[href]:focus {
-    color: #fff;
-    background-color: #4e1717;
+.badge-celeste[href]:hover, .badge-celeste[href]:focus {
+    color: #212529;
+    background-color: #008ccc;
 }
 
-.bg-vino {
-    background-color: #762323 !important;
+.bg-celeste {
+    background-color: #00B0FF !important;
 }
 
-a.bg-vino:hover, a.bg-vino:focus,
-button.bg-vino:hover,
-button.bg-vino:focus {
-    background-color: #4e1717 !important;
+a.bg-celeste:hover, a.bg-celeste:focus,
+button.bg-celeste:hover,
+button.bg-celeste:focus {
+    background-color: #008ccc !important;
 }
 
-.border-vino {
-    border-color: #762323 !important;
+.border-celeste {
+    border-color: #00B0FF !important;
 }
 
-.btn-vino {
-    color: #fff;
-    background-color: #762323;
-    border-color: #762323;
+.btn-celeste {
+    color: #212529;
+    background-color: #00B0FF;
+    border-color: #00B0FF;
 }
 
-.btn-vino:hover {
-    color: #fff;
-    background-color: #5a1a1a;
-    border-color: #4e1717;
+.btn-celeste:hover {
+    color: #212529;
+    background-color: #0097db;
+    border-color: #008ccc;
 }
 
-.btn-vino:focus, .btn-vino.focus {
-    box-shadow: 0 0 0 0.2rem rgba(118, 35, 35, 0.5);
+.btn-celeste:focus, .btn-celeste.focus {
+    box-shadow: 0 0 0 0.2rem rgba(0, 176, 255, 0.5);
 }
 
-.btn-vino.disabled, .btn-vino:disabled {
-    color: #fff;
-    background-color: #762323;
-    border-color: #762323;
+.btn-celeste.disabled, .btn-celeste:disabled {
+    color: #212529;
+    background-color: #00B0FF;
+    border-color: #00B0FF;
 }
 
-.btn-vino:not(:disabled):not(.disabled):active, .btn-vino:not(:disabled):not(.disabled).active, .show > .btn-vino.dropdown-toggle {
-    color: #fff;
-    background-color: #4e1717;
-    border-color: #421313;
+.btn-celeste:not(:disabled):not(.disabled):active, .btn-celeste:not(:disabled):not(.disabled).active, .show > .btn-celeste.dropdown-toggle {
+    color: #212529;
+    background-color: #008ccc;
+    border-color: #0082bc;
 }
 
-.btn-vino:not(:disabled):not(.disabled):active:focus, .btn-vino:not(:disabled):not(.disabled).active:focus, .show > .btn-vino.dropdown-toggle:focus {
-    box-shadow: 0 0 0 0.2rem rgba(118, 35, 35, 0.5);
+.btn-celeste:not(:disabled):not(.disabled):active:focus, .btn-celeste:not(:disabled):not(.disabled).active:focus, .show > .btn-celeste.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem rgba(0, 176, 255, 0.5);
 }
 
-.btn-outline-vino {
-    color: #762323;
+.btn-outline-celeste {
+    color: #00B0FF;
     background-color: transparent;
-    border-color: #762323;
+    border-color: #00B0FF;
 }
 
-.btn-outline-vino:hover {
-    color: #fff;
-    background-color: #762323;
-    border-color: #762323;
+.btn-outline-celeste:hover {
+    color: #212529;
+    background-color: #00B0FF;
+    border-color: #00B0FF;
 }
 
-.btn-outline-vino:focus, .btn-outline-vino.focus {
-    box-shadow: 0 0 0 0.2rem rgba(118, 35, 35, 0.5);
+.btn-outline-celeste:focus, .btn-outline-celeste.focus {
+    box-shadow: 0 0 0 0.2rem rgba(0, 176, 255, 0.5);
 }
 
-.btn-outline-vino.disabled, .btn-outline-vino:disabled {
-    color: #762323;
+.btn-outline-celeste.disabled, .btn-outline-celeste:disabled {
+    color: #00B0FF;
     background-color: transparent;
 }
 
-.btn-outline-vino:not(:disabled):not(.disabled):active, .btn-outline-vino:not(:disabled):not(.disabled).active, .show > .btn-outline-vino.dropdown-toggle {
-    color: #fff;
-    background-color: #762323;
-    border-color: #762323;
+.btn-outline-celeste:not(:disabled):not(.disabled):active, .btn-outline-celeste:not(:disabled):not(.disabled).active, .show > .btn-outline-celeste.dropdown-toggle {
+    color: #212529;
+    background-color: #00B0FF;
+    border-color: #00B0FF;
 }
 
-.btn-outline-vino:not(:disabled):not(.disabled):active:focus, .btn-outline-vino:not(:disabled):not(.disabled).active:focus, .show > .btn-outline-vino.dropdown-toggle:focus {
-    box-shadow: 0 0 0 0.2rem rgba(118, 35, 35, 0.5);
+.btn-outline-celeste:not(:disabled):not(.disabled):active:focus, .btn-outline-celeste:not(:disabled):not(.disabled).active:focus, .show > .btn-outline-celeste.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem rgba(0, 176, 255, 0.5);
 }
 
-.list-group-item-vino {
-    color: #170707;
-    background-color: #d77979;
+.list-group-item-celeste {
+    color: #005b84;
+    background-color: #b7e8ff;
 }
 
-.list-group-item-vino.list-group-item-action:hover, .list-group-item-vino.list-group-item-action:focus {
-    color: #170707;
-    background-color: #d16565;
+.list-group-item-celeste.list-group-item-action:hover, .list-group-item-celeste.list-group-item-action:focus {
+    color: #005b84;
+    background-color: #9ee0ff;
 }
 
-.list-group-item-vino.list-group-item-action.active {
-    color: #fff;
-    background-color: #170707;
-    border-color: #170707;
+.list-group-item-celeste.list-group-item-action.active {
+    color: #212529;
+    background-color: #005b84;
+    border-color: #005b84;
 }
 
-.table-vino,
-.table-vino > th,
-.table-vino > td {
-    background-color: #d77979;
+.table-celeste,
+.table-celeste > th,
+.table-celeste > td {
+    background-color: #b7e8ff;
 }
 
-.table-hover .table-vino:hover {
-    background-color: #d16565;
+.table-hover .table-celeste:hover {
+    background-color: #9ee0ff;
 }
 
-.table-hover .table-vino:hover > td,
-.table-hover .table-vino:hover > th {
-    background-color: #d16565;
+.table-hover .table-celeste:hover > td,
+.table-hover .table-celeste:hover > th {
+    background-color: #9ee0ff;
 }
 
-.text-vino {
-    color: #762323 !important;
+.text-celeste {
+    color: #00B0FF !important;
 }
 
-a.text-vino:hover, a.text-vino:focus {
-    color: #4e1717 !important;
+a.text-celeste:hover, a.text-celeste:focus {
+    color: #008ccc !important;
 }

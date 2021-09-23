@@ -6,11 +6,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--link Bootstrap-->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet">
     <!--link color nuevo-->
     <link href="css/color.css" rel="stylesheet">
     <!--link hojas de estilo-->
     <link href="css/main.css" rel="stylesheet">
+    <!--aos-->
+    <link href="css/dist/aos.css" rel="stylesheet">
+    <!--icons-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
     <!--titulo-->
     <title>Cafetería</title>
 </head>
@@ -18,241 +22,224 @@
 <body>
     <!--header-->
     <header>
-        <div class="row">
-            <div class="col-12 m-2 text-center">
-                <h1 id="title">DOMCOFFEE</h1>
+        <div class="container-fluid bg-celeste">
+            <div class="row">
+                <div class="text-center col-12 p-2">
+                    <h1 id="title"><i class="bi bi-heart-half"></i>DOMENICA</h1>
+                </div>
             </div>
         </div>
+
     </header>
     <!--main-->
     <main>
-        <!--barra de navegacion-->
-        <ul class="nav nav-tabs justify-content-center sticky-top bg-light">
-            <li class="nav-item">
-                <a class="nav-link active text-dark" aria-current="page" href="#shop">Home</a>
-            </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle text-dark" data-bs-toggle="dropdown" href="#menu"
-                    role="button" aria-expanded="false">Menú</a>
-                <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Action</a></li>
-                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                    <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    <li>
-                        <hr class="dropdown-divider">
-                    </li>
-                    <li><a class="dropdown-item" href="#">Separated link</a></li>
-                </ul>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link text-dark" href="#cafeteria">Cafetería</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link text-dark" href="#footer">Contacto</a>
-            </li>
-        </ul>
-        <!--cuerpo-->
-        <!--About-->
-        <div class="container m-4" id="about">
-            <div class="clearfix m-4">
-                <img src="images/regalos.png" class="col-md-5 float-md-end ms-md-3 img-fluid w-30"
-                    alt="about">
-                <h1 class="text-end">Comprá tu café</h1>
-                <p class="text-end" id="home">
-                    As you can see the paragraphs gracefully wrap around the floated image. Now imagine how this would
-                    look with
-                    some actual content in here, rather than just this boring placeholder text that goes on and on, but
-                    actually
-                    conveys no tangible information at. It simply takes up space and should not really be read.
-                </p>
-            </div>
-        </div>>
-        <!--Shop-->
-        <div class="container m-4" id="shop">
-            <div class="clearfix m-4">
-                <img src="images/delivery.png" class="col-md-6 float-md-start mr-5 me-4 img-fluid"
-                    alt="shop">
-                <h1>Shop</h1>
-                <p>
-                    As you can see the paragraphs gracefully wrap around the floated image. Now imagine how this would
-                    look with
-                    some actual content in here, rather than just this boring placeholder text that goes on and on, but
-                    actually
-                    conveys no tangible information at. It simply takes up space and should not really be read.
-                </p>
-            </div>
-        </div>
-        <!--menu-->
-        <div class="container-fluid text-center">
-            <h2 id="menu">CONOCÉ NUESTRA NOVEDADES</h2>
-        </div>
-<!--secciones-->
-        <section class="p-4">
-            <div class="container">
-                <!--Primer Bloque-->
-                <h2 class="my-4" id="desayunos">Desayunos</h2>
-                <div class="row row-cols-2 row-cols-lg-3 g-2 g-lg-3 mb-5">
-                    <div class="col">
-                        <img src="images/laptop.png" class="img-thumbnail" alt="...">
-                        <div class="p-3 border bg-light">
-                            <div class="d-grid gap-2">
-                                <button class="btn btn-outline-dark" type="button">Agregar al carrito</button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <img src="images/laptop2.png" class="img-thumbnail" alt="...">
-                        <div class="p-3 border bg-light">
-                            <div class="d-grid gap-2">
-                                <button class="btn btn-outline-dark" type="button">Agregar al carrito</button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <img src="images/laptop3.png" class="img-thumbnail" alt="...">
-                        <div class="p-3 border bg-light">
-                            <div class="d-grid gap-2">
-                                <button class="btn btn-outline-dark" type="button">Agregar al carrito</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!--Segundo Bloque-->
-                <h2 class="my-3" id="almuerzos">Almuerzos</h2>
-                <div class="row row-cols-2 row-cols-lg-3 g-2 g-lg-3 mb-5">
-                    <div class="col">
-                        <img src="images/escritorio.png" class="img-thumbnail" alt="...">
-                        <div class="p-3 border bg-light">
-                            <div class="d-grid gap-2">
-                                <button class="btn btn-outline-dark" type="button">Agregar al carrito</button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <img src="images/escritorio1.png" class="img-thumbnail" alt="...">
-                        <div class="p-3 border bg-light">
-                            <div class="d-grid gap-2">
-                                <button class="btn btn-outline-dark" type="button">Agregar al carrito</button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <img src="images/escritorio3.png" class="img-thumbnail" alt="...">
-                        <div class="p-3 border bg-light">
-                            <div class="d-grid gap-2">
-                                <button class="btn btn-outline-dark" type="button">Agregar al carrito</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!--Tercer Bloque-->
-                <h2 class="my-3" id="postres">Postres</h2>
-                <div class="row row-cols-2 row-cols-lg-3 g-2 mb-5 g-lg-3">
-                    <div class="col">
-                        <img src="images/auriculares1.png" class="img-thumbnail" alt="...">
-                        <div class="p-3 border bg-light">
-                            <div class="d-grid gap-2">
-                                <button class="btn btn-outline-dark" type="button">Agregar al carrito</button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <img src="images/auriculares2.png" class="img-thumbnail" alt="...">
-                        <div class="p-3 border bg-light">
-                            <div class="d-grid gap-2">
-                                <button class="btn btn-outline-dark" type="button">Agregar al carrito</button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <img src="images/auriculares3.png" class="img-thumbnail" alt="...">
-                        <div class="p-3 border bg-light">
-                            <div class="d-grid gap-2">
-                                <button class="btn btn-outline-dark" type="button">Agregar al carrito</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-         <div class="container-fluid text-center">
-                    <h2 id="cafeteria">CAFETERÍA</h2>
-                </div>
-        <section class="p-4">
-           
-            <div class="container">
-                <!--Primer Bloque-->
-                
-                <div class="row row-cols-2 row-cols-lg-3 g-2 g-lg-3 mb-5">
-                    <div class="col">
-                        <img src="images/cafe1.png" class="img-thumbnail" alt="...">
-                        <div class="p-3 border bg-light">
-                            <div class="d-grid gap-2">
-                                <button class="btn btn-outline-dark" type="button">Agregar al carrito</button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <img src="images/cafe2.png" class="img-thumbnail" alt="...">
-                        <div class="p-3 border bg-light">
-                            <div class="d-grid gap-2">
-                                <button class="btn btn-outline-dark" type="button">Agregar al carrito</button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <img src="images/cafe3.png" class="img-thumbnail" alt="...">
-                        <div class="p-3 border bg-light">
-                            <div class="d-grid gap-2">
-                                <button class="btn btn-outline-dark" type="button">Agregar al carrito</button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <img src="images/cafe4.png" class="img-thumbnail" alt="...">
-                        <div class="p-3 border bg-light">
-                            <div class="d-grid gap-2">
-                                <button class="btn btn-outline-dark" type="button">Agregar al carrito</button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <img src="images/cafe5.png" class="img-thumbnail" alt="...">
-                        <div class="p-3 border bg-light">
-                            <div class="d-grid gap-2">
-                                <button class="btn btn-outline-dark" type="button">Agregar al carrito</button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <img src="images/cafe6.png" class="img-thumbnail" alt="...">
-                        <div class="p-3 border bg-light">
-                            <div class="d-grid gap-2">
-                                <button class="btn btn-outline-dark" type="button">Agregar al carrito</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-        </section>
-    </main>
-    <!--footer-->
-    <div>
-        <footer>
-            <div class="p-3 bg-dark text-white">
-                <div class="container">
-                    <h2 id="footer">Contacto</h2>
-                    <nav aria-label="breadcrumb">
-                        <ol class="breadcrumb">
-                            <li class="breadcrumb-item"><a class="text-white" href="#">Home</a></li>
-                            <li class="breadcrumb-item active text-white" aria-current="page">Creado por
-                                Domenica Selci
+        <!--navbar-->
+        <div class="container-fluid sticky-top bg-celeste">
+            <div class="row">
+                <div class="col-12">
+                    <nav>
+                        <ul class="nav nav-tabs justify-content-center bg-light">
+                            <li class="nav-item">
+                                <a class="nav-link active text-black" aria-current="page" href="#about">About</a>
                             </li>
-                        </ol>
+                            <li class="nav-item">
+                                <a class="nav-link text-black" href="#habilidades">Habilidades</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-black" href="#proyectos">Proyectos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-black" href="#footer">Contacto</a>
+                            </li>
+                        </ul>
                     </nav>
                 </div>
             </div>
-        </footer>
-    </div>
+        </div>
+        <!--presentacion-->
+        <section class="bg-light" data-aos="fade-left">
+            <div class="container-fluid p-4 my-3">
+                <div class="row">
+                    <div class="col-6 p-4" id="about">
+                        <h2 class="text-end">
+                            SOY
+                        </h2>
+                        <h2 class="text-end"><mark class="shadow bg-celeste">DOMENICA SELCI</mark></h2>
+                        <h2 class="text-end">
+                            Web developer
+                        </h2>
+                    </div>
+                    <div class="col-6">
+                        <img src="images/undraw_web_development_w2vv.svg" class="float-end mb-3 ms-3 p-4 img-fluid"
+                            alt="about">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--habilidades-->
+        <section class="p-4" id="habilidades">
+            <h1 class="text-center">HABILIDADES</h1>
+            <div class="container-fluid p-4">
+                <div class="row row-cols-1 row-cols-3 g-4">
+                    <div data-aos="zoom-in">
+                        <div class="col">
+                            <div class="card h-100 shadow">
+                                <div class="container">
+                                    <div class="row justify-content-center">
+                                        <div class="col-auto">
+                                            <i class="bi bi-cloud" style="font-size: 8rem; color:rgb(0, 183, 255);"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title text-center">Desarrollo Back-end</h5>
+                                    <p class="card-text">Creación de APIs, Web Apps o servicio. Siempre buscando el
+                                        mayor rendimiento y buenas prácticas como el testing.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div data-aos="zoom-in">
+                        <div class="col">
+                            <div class="card h-100 shadow">
+                                <div class="container">
+                                    <div class="row justify-content-center">
+                                        <div class="col-auto">
+                                            <i class="bi bi-phone" style="font-size: 8rem; color:rgb(0, 183, 255);"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title text-center">App Móvil</h5>
+                                    <p class="card-text">Desarrollo nativo e híbrido para Android y iOS. Publica en
+                                        Apple Store o Play Store y capta más clientes.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div data-aos="zoom-in">
+                        <div class="col">
+                            <div class="card h-100 shadow">
+                                <div class="container">
+                                    <div class="row justify-content-center">
+                                        <div class="col-auto">
+                                            <i class="bi bi-laptop"
+                                                style="font-size: 8rem; color:rgb(0, 183, 255);"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title text-center">Diseño Web</h5>
+                                    <p class="card-text">Páginas web preparadas con responsive design, en otras palabras
+                                        adaptadas a móviles y tablets. Modernos estándares y todo optimizado.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--proyectos-->
+        <section class="p-4 mb-5" id="proyectos">
+            <h1 class="text-center">PROYECTOS</h1>
+            <div class="container-fluid p-4 mb-5" data-aos="fade-up">
+                <div class="row row-cols-1 row-cols-3 g-4">
+                    <div class="col">
+                        <div class="card h-100 shadow">
+                            <img src="./images/Typing.gif" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <div class="container">
+                                    <div class="d-grid gap-1">
+                                        <button class="btn btn-outline-celeste" type="button">Buy</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 shadow">
+                            <img src="./images/Typing-bro.svg" class="card-img-top" alt="...">
+                           <div class="card-body">
+                                    <div class="container">
+                                        <div class="d-grid gap-1">
+                                            <button class="btn btn-outline-celeste" type="button">Buy</button>
+                                        </div>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 shadow">
+                            <img src="./images/Devices-rafiki.svg" class="card-img-top" alt="...">
+                           <div class="card-body">
+                                    <div class="container">
+                                        <div class="d-grid gap-1">
+                                            <button class="btn btn-outline-celeste" type="button">Buy</button>
+                                        </div>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 shadow">
+                            <img src="./images/Devices-bro.svg" class="card-img-top" alt="...">
+                           <div class="card-body">
+                                    <div class="container">
+                                        <div class="d-grid gap-1">
+                                            <button class="btn btn-outline-celeste" type="button">Buy</button>
+                                        </div>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 shadow">
+                            <div class="thumbnail">
+                                <img src="./images/Mobile-bro.svg" class="card-img-top" alt="...">
+                            </div>
+                           <div class="card-body">
+                                    <div class="container">
+                                        <div class="d-grid gap-1">
+                                            <button class="btn btn-outline-celeste" type="button">Buy</button>
+                                        </div>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 shadow">
+                            <img src="./images/Mobile Marketing-amico.svg" class="card-img-top" alt="...">
+                           <div class="card-body">
+                                    <div class="container">
+                                        <div class="d-grid gap-1">
+                                            <button class="btn btn-outline-celeste" type="button">Buy</button>
+                                        </div>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!--footer-->
+    <footer class="bg-celeste">
+        <div class="p-3">
+            <div class="container">
+                <h2 id="footer">Contacto</h2>
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="#">Home</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Creado por Domenica Selci</li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
+    </footer>
+    <script src="css/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
